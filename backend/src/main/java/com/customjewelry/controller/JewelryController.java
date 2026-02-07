@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/jewelry")
+@RequestMapping("/jewelry")
 @CrossOrigin(origins = "*") // Allows your frontend to access this API
 public class JewelryController {
 

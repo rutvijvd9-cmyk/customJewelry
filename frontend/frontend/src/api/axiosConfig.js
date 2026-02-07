@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const api = axios.create({
-    baseURL: 'https://jewelry-backend-jccu.onrender.com', // This points to your Java Backend
+export default axios.create({
+    // ⚠️ IMPORTANT: Paste your Render URL here, but DO NOT add /jewelry at the end.
+    // It should look like: https://jewelry-backend-xxxx.onrender.com
+    baseURL: 'https://jewelry-backend-REPLACE_WITH_YOUR_ID.onrender.com', 
     headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
     }
 });
-
-export default api;
