@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api', // This points to your Java Backend
+    baseURL: 'https://jewelry-backend-jccu.onrender.com', // This points to your Java Backend
     headers: {
         'Content-Type': 'application/json',
     }
